@@ -7,7 +7,7 @@ applications:
   env:
     GRANT_TYPE: client_credentials
     SECURITY_USER_NAME: actuator
-    SECURITY_PASSWORD: operations4red
+    SECURITY_USER_PASSWORD: operations4red
   services:
   - tracker-registration-database
   - tracker-service-registry
